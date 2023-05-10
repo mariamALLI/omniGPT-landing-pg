@@ -3,24 +3,24 @@
 }
 
 @font-face {
-    font-family: 'FS Meridian Trial', sans-serif;
+    font-family: 'FS Meridian Trial';
     font-style: normal;   
     font-weight: 500;                                       
-    src: local('FS Meridian Trial') , url('https://fonts.cdnfonts.com/css/fs-meridian-trial');
+    src: local('FS Meridian Trial') , url(https://fonts.cdnfonts.com/s/92037/FSMeridianTrial-Medium.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'General Sans', sans-serif;
+    font-family: 'General Sans';
     font-style: normal;
-    font-weight: 400;
-    src: local('General Sans'), url('https://fonts.cdnfonts.com/css/general-sans');
+    font-weight: 500;
+    src: local('General Sans'), url(https://fonts.cdnfonts.com/s/85793/GeneralSans-Regular.woff) format('woff');
 }
 
 @font-face {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;                                            
-    src: local('Poppins'), url('https://fonts.cdnfonts.com/css/poppins');
+    src: local('Poppins'), url(https://fonts.cdnfonts.com/s/16009/Poppins-Light.woff) format('woff');
 }
 
 /* layout */
@@ -29,7 +29,7 @@ body {
     background-color: #111826;
     padding: 0;
     margin: 0;
-    font-family: 'General Sans', sans-serif;
+    font-family: 'General Sans';
     color: #fff;
 }
 
@@ -103,7 +103,6 @@ body {
   background-position: center;
   background-size: cover;
   padding: 1rem;
-  /* margin-left: -5rem; */
   margin-top: 4rem;
 }
 
@@ -113,6 +112,38 @@ body {
     display: none;
 }
 
+.left_col {
+    position: relative;
+}
+
+.oval_vector {
+    background-image: url(images/oval\ circle\ mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+    position: absolute;
+    top: 9.5rem;
+    left: -1.5rem;
+    z-index: -1;
+    width: 100%;
+}
+
+button {
+    background-color: #1FC77E;
+    color: inherit;
+    border: none;
+    border-radius: 6px;
+    padding: 1.2rem 3.5rem;
+    
+}
+
+.light_btn {
+    font-size: 1.2em;
+    margin: 0 auto;
+    display: block;
+    font-weight: 100;
+}
+
 
 
 /* Typography */
@@ -120,7 +151,7 @@ body {
 ul li {
     list-style: none;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     margin-top: 2.8rem;
 }
 
@@ -128,6 +159,35 @@ ul li {
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
+}
+
+.left_col_text {
+    font-family: 'FS Meridian Trial';
+    font-size: 2.5em;
+    font-weight: 500;
+    
+}
+
+br {
+    display: none;
+}
+
+.container h2,
+.container h3 {
+    font-weight: 500;
+}
+
+.container h2 {
+    margin-top: -1rem;
+}
+
+.container p {
+    font-weight: 100;
+    font-size: .85em;
+}
+
+.container h3 {
+   font-size: 1em;
 }
 
 
@@ -159,5 +219,131 @@ ul li {
     .nav_link {
         font-weight: 100;
         font-size: 1em;
+    }
+
+    .double_col {
+        grid-template-columns: auto auto;
+        gap: 20px;
+    } 
+    
+    .right_col {
+        order: 2;
+    }
+
+    .left_col {
+        order: 1;
+    }
+
+    .flex_one {
+        justify-content: flex-start;
+        align-items: baseline;
+        margin-top: 4rem;
+        margin-right: 5rem;
+    }
+
+    .pixel {
+        background-image: url(images/Rectangle\ desktop.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding: 6rem 13rem;
+        width: 100%;
+    }
+
+    .pixel::before {
+        content: url(images/group-ppl.png);
+        position: absolute;
+        top: 7.68rem;
+        left: 61rem;
+    }
+
+    .img_one {
+        display: none;
+    }
+
+    .flex_two,
+    .flex_three,
+    .img_flex {
+        display: block;
+    }
+
+    .flex_two{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: end;
+        margin-top: 2rem;
+    }
+
+    .oval_vector {
+        background-image: url(images/oval\ circle.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 4rem;
+        width: 50vw;
+        top: 17.5rem;
+    }
+
+    .light_btn {
+        margin: 0;
+    }
+
+    .arrow_icon_purple {
+        padding: 1.5rem;
+        width: 8vw;
+        margin-left: -3rem;
+    }
+
+    .arrow_icon_green {
+       background-image: url(images/Ellipse\ 95.png);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       padding: 1.5rem;
+       width: 6vw;
+       margin-right: -4rem;
+    }
+
+    .pixel-white {
+        background-color: #F4FAFF;
+        height: 92px;
+        width: 294px;
+        text-align: center;
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border-top-right-radius: 60px;
+    }
+
+    .imgtwo {
+        position: relative;
+    }
+
+    .img_two {
+        width: 14vw;
+        position: absolute;
+        top: -2rem;
+        left: 3rem;
+    }
+
+    /* typography */
+    .left_col_text {
+        font-size: 5em;
+    }
+
+    .container h2 {
+        font-size: 2.2em;
+        font-weight: 700;
+    }
+
+    .container h3 {
+        font-size: 1.5em;
+    }
+
+    .container p {
+        font-size: 1.2em;
+        opacity: 75%;
+    }
+
+    br {
+        display: block;
     }
 }
