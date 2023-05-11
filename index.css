@@ -112,6 +112,11 @@ body {
     display: none;
 }
 
+.right_col,
+.left_col {
+    margin: 0;
+}
+
 .left_col {
     position: relative;
 }
@@ -142,6 +147,19 @@ button {
     margin: 0 auto;
     display: block;
     font-weight: 100;
+    cursor: pointer;
+}
+
+.sec_two {
+    display: none;
+}
+
+/* sec_three style layout */
+.black_txt {
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    border-radius: 15px
 }
 
 
@@ -168,6 +186,11 @@ ul li {
     margin-top: 0;
 }
 
+.left_col_text,
+.right_column h1 {
+    font-family: 'FS Meridian Trial';
+}
+
 br {
     display: none;
 }
@@ -189,6 +212,39 @@ br {
 .container h3 {
    font-size: 1em;
 }
+
+.right_column h1 {
+    font-size: 2em;
+}
+
+.green_txt{
+    color: #1FC77E;
+}
+
+.sec_three br {
+    display: block;
+}
+
+.black_txt h3 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.black_txt p {
+    padding: 1rem 1.1rem;
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: -2rem;
+}
+
+.container .arsh_bg {
+    background-color: #414651;
+    padding: 2rem 1.5rem;
+    border-radius: 15px;
+    font-size: 1.5em;
+}
+
 
 
 
@@ -389,22 +445,78 @@ br {
         left: 3rem;
     }
 
+         /* section_two layout style */
     .sec_two {
         margin-top: 9rem;
+        display: block;
     }
 
     .black_bg {
         background-color: #000;
+        position: relative;
     }
 
     .pro_max {
         display: block;
         margin: 0 auto;
-        margin-bottom: -2rem;
+        margin-bottom: -3.5rem;
         margin-top: 2.5rem;
-        background-color: #fff;
+        background-color: #ffffffeb;
         border-top-left-radius: 57px;
         border-top-right-radius: 57px;
+    }
+
+    .iphone_bars {
+        position: relative;
+    }
+
+    .iphone_bars .iphone_time {
+        position: absolute;
+        bottom: 24.5rem;
+        left: 29rem;
+    }
+
+    .bar_icons {
+        position: relative;
+        top: -25rem;
+        left: 39.5rem;
+    }
+
+    .pro_bars {
+        width: 20px;
+    }
+
+    .whatsapp_sec {
+        padding: 0.5rem;
+        position: absolute;
+        width: 23.5%;
+        top: 8rem;
+        left: 28.7rem;
+        background: transparent;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .whatsapp_typing {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .omni-and-backarrow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0.5rem;
+    }
+
+    .video-audio {
+        margin-left: 4rem;
+    }
+
+    .type_msg {
+        position: absolute;
+        bottom: 2rem;
+        left: 13rem;
     }
 
     /* typography */
@@ -439,4 +551,11 @@ br {
    .flex_text2 p {
     opacity: 50%;
    }
+
+   .iphone_bars .iphone_time {
+    font-size: .9em;
+    color: #000;
+    font-weight: 700;
+    font-family: sans-serif;
+}
 }
