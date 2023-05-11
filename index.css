@@ -73,7 +73,8 @@ body {
     width: 25px;
 }
 
-.double_col {
+.double_col,
+.two_col {
     display: grid;
 }
 
@@ -341,13 +342,21 @@ br {
         gap: 20px;
     } 
     
-    .right_col {
+    .right_col,
+    .right_column {
         order: 2;
+    }
+
+    .right_col {
         margin-right: 5.5rem;
     }
 
-    .left_col {
+    .left_col,
+    .left_column {
         order: 1;
+    }
+
+    .left_col {
         margin-left: 5.5rem;
     }
 
@@ -578,6 +587,57 @@ br {
         left: 13rem;
     }
 
+    /* sec_three style layout */
+    .sec_three {
+        margin-top: 6rem;
+    }
+    .two_col {
+        grid-template-columns: repeat(2, 1.5fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+    }
+
+    .right_column br {
+        display: none;
+    }
+
+    .iphone_wit_img {
+        width: 60%;
+    }
+
+    .right_column {
+        padding: 0 3rem;
+    }
+
+    .container .arsh_bg {
+        background: none;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0px;
+        margin-bottom: -2rem;
+    }
+
+    .container .last_line {
+        border: none;
+    }
+
+    .black_txt {
+        padding: 0.1rem 1rem;
+    }
+
+    .whatsapp_icon {
+        width: 20%;
+        left: 15rem;
+    }
+
+    .green_chat {
+        left: -1.5rem;
+    }
+
+    .yellow_chat {
+        left: 18rem;
+    }
+
     /* typography */
     .left_col_text {
         font-size: 3.8em;
@@ -616,5 +676,17 @@ br {
     color: #000;
     font-weight: 700;
     font-family: sans-serif;
-}
+    }
+
+    .right_column h1 {
+        padding: 0rem 7rem;
+        margin-left: -7rem;
+    }
+
+    .black_txt h3 {
+        text-align: left;
+        font-family: 'FS Meridian Trial';
+        margin-left: 1rem;
+    }
+
 }
