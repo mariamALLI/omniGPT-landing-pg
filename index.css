@@ -162,6 +162,65 @@ button {
     border-radius: 15px
 }
 
+.pro_max_img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-image: url(images/pro-max-img.png);
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 50px;
+}
+
+.fbk-and-green-chat,
+.whatsapp-and-yello-chat {
+    position: relative;
+}
+
+.fbk_icon,
+.whatsapp_icon {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 50px;
+}
+
+.fbk_icon{
+    position: absolute;
+    top: -31rem;
+}
+
+.whatsapp_icon {
+    width: 34%;
+    position: absolute;
+    top: -9rem;
+    left: 13.5rem;
+}
+
+.green_chat,
+.yellow_chat {
+    width: 90px;
+    height: 90px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    z-index: -1;
+}
+
+.green_chat {
+    top: -12rem;
+    left: -1rem;
+    background-color: #1FC77E;
+    position: absolute;
+    
+}
+
+.yellow_chat {
+    background-color: #FEEA00;
+    position: absolute;
+    top: -28rem;
+    left: 15rem;
+}
 
 
 /* Typography */
