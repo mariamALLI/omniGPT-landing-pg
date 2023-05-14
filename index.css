@@ -68,7 +68,7 @@ body {
 
 .close {
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     right: 1.2rem;
     width: 25px;
 }
@@ -221,7 +221,7 @@ button {
     background-color: #FEEA00;
     position: absolute;
     top: -28rem;
-    left: 15rem;
+    left: 15.5rem;
 }
 
 /* sec_four and sec_five style layout */
