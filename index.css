@@ -171,7 +171,6 @@ button {
     margin-top: 3rem;
     background-image: url(images/pro-max-img.png);
     background-size: cover;
-    /* background-position: center; */
     border-radius: 50px;
 }
 
@@ -197,6 +196,7 @@ button {
     position: absolute;
     top: -9rem;
     left: 13.5rem;
+    border-radius: 100px;
 }
 
 .green_chat,
@@ -426,7 +426,7 @@ br {
 
 
 
-@media (min-width: 750px) {
+@media (min-width: 800px) {
     .close,
     .open {
         display: none;
