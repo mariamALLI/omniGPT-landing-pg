@@ -583,7 +583,7 @@ br {
         border-bottom-right-radius: 60px;
         border-top-right-radius: 60px;
         margin-top: 2.5rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
 
     .flex_text2 {
@@ -804,7 +804,7 @@ br {
     .star_purple {
         position: absolute;
         right: 5rem;
-        top: 6rem;
+        top: 13rem;
         z-index: 2;
         width: 16%;
     }
